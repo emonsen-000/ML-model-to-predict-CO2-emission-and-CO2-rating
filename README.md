@@ -17,7 +17,7 @@ in this project I will use many ML algorithms to build and compare a CO2 emissio
 - Demonstrate dangers of data leakage
 - Build a complete ML workflow
 
-# Data leakage experimaent in Linear Regression Model
+# Data leakage experiment in Linear Regression Model
 | Model Type      | R² Score |
 | --------------- | -------- |
 | With Leakage    | ~0.99    |
