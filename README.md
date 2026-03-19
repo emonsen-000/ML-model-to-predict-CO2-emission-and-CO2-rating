@@ -55,7 +55,9 @@ In Linear Model:
 - R2 SCORE: 0.7941718542845437
 - RMSE: 29.138413975618015
 - 
-# 📊 Classification Results (Logistic Regression)
+# 📊 Classification Results
+# In Logistic Regression
+
 - Accuracy: 0.88
 
 - Confusion Matrix:
@@ -69,6 +71,50 @@ In Linear Model:
 
 - Log Loss: 0.2554
 - 
+# In KNeighbours Classifier
+
+- Accuracy: 0.84
+
+- Confusion Matrix:
+                    [[42 16]
+                    [ 5 67]]
+
+Key Observations:
+- Strong performance in detecting high CO₂ vehicles (Recall: 0.93)
+- Struggles more with low CO₂ vehicles (Recall: 0.72)
+- Misclassifies 16 low-emission vehicles as high
+
+Log Loss: 0.60
+
+📌 Insight:
+KNN shows higher sensitivity to high-emission vehicles but at the cost of
+increased false positives. Compared to Logistic Regression, it achieves
+slightly lower accuracy and less balanced performance.
+
+📊 Comparison Insight
+
+# K-Nearest Neighbors (KNN):
+
+- Better at detecting high emissions (class 1)
+
+- Higher recall for class 1 (0.93)
+
+- Slightly worse overall accuracy (0.84)
+
+# Logistic Regression:
+
+- More balanced performance across classes
+
+- Higher overall accuracy (0.88)
+
+- Fewer false positives for low-emission vehicles
+
+. KNN prioritizes capturing high-emission vehicles (higher recall for class 1),
+but at the cost of misclassifying more low-emission vehicles.
+
+. Logistic Regression provides a more balanced prediction,
+resulting in better overall accuracy and fewer classification errors.
+
 # 🛠️ Tech Stack
 - Python
 - Pandas
