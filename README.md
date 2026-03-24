@@ -47,6 +47,7 @@ Target: CO₂ Rating
 
 Model Used:
 - Logistic Regression
+- KNeighbors Classifier
 
 # 📊 Regression Results
 In Linear Model: 
