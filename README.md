@@ -106,14 +106,6 @@ Through this project, I learned:
 - Detecting and resolving **data leakage**
 - Interpreting confusion matrices and performance metrics
 
----
-
-## 🚀 Future Improvements
-
-- Feature engineering for improved prediction
-- Cross-validation for more robust evaluation
-- Deployment using Flask/Streamlit
-- Model explainability using SHAP or feature importance analysis
 
 ---
 
@@ -121,6 +113,3 @@ Through this project, I learned:
 
 **Emon Sen**  
 CSE Undergraduate | Aspiring Data Scientist  
-
-GitHub: *Add your GitHub profile link here*  
-LinkedIn: *Add your LinkedIn profile link here*
